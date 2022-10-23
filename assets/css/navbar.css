@@ -1,7 +1,13 @@
-#navbar {
+ #navbar {
       margin: 0px;
       background-image: linear-gradient(#fa893c, #f3696e);
       height: 100px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+    }
+    #navbar img {
+      border: 1px solid transparent;
+      border-radius: 10px;
     }
     #navbar .link {
       text-align: center;
