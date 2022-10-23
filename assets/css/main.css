@@ -1,8 +1,14 @@
 /* WIP */
-/*https://paletton.com/#uid=10i0u0kkAL39QWmfNQYoUEuumyv*/
+/*https://paletton.com/#uid=10i0u0kkAL39QWmfNQYoUEuumyv
 
 .primary-1 { background-color: #FFCAB1 }
 .primary-2 { background-color: #FFAA81 }
 .primary-0 { background-color: #FF905B }
 .primary-3 { background-color: #FF7939 }
 .primary-4 { background-color: #FF5C0D }
+
+*/
+
+body {
+  font-family: sans-serif;
+}
