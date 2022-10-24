@@ -1,5 +1,5 @@
  #navbar {
-      margin: 0px;
+      margin: -10px;
       background-image: linear-gradient(#fa893c, #f3696e);
       height: 100px;
       border: 1px solid transparent;
@@ -16,7 +16,7 @@
       color: white;
       text-decoration: none;
       font-size: 2em;
-      top: -2.5vw;
+      top: -3vw;
       padding-top: 15px;
       padding-bottom: 17px;
       padding-left: 10px;
