@@ -1,7 +1,7 @@
    
     //Main Idea Image Fade
     var image = 1;
-    const src = ["https://raw.githubusercontent.com/Crisp-Programming-Language/Crisp-Programming-Language.github.io/main/assets/images/light-mode.png", "https://raw.githubusercontent.com/Crisp-Programming-Language/Crisp-Programming-Language.github.io/main/assets/images/dark-mode.png"];
+    const src = ["/assets/images/light-mode.png", "/assets/images/dark-mode.png"];
     const changeImg = function () {
       image = 1;
       $("#main-disp").show();
@@ -18,4 +18,7 @@
               }, 4000); 
       });
     }
-    window.setInterval(changeImg, 10000);
+    window.setTimeout(function(){
+        changeImg();
+        window.setInterval(changeImg, 10000);
+    }, 2000);
