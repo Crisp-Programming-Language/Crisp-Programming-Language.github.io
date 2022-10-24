@@ -1,11 +1,11 @@
 /*https://paletton.com/#uid=10i0u0kkAL39QWmfNQYoUEuumyv */
 
     body {
-       font-family: sans-serif;
-   }
+      font-family: sans-serif;
+    }
     .main-idea {
       margin-top: 5%;
-      font-size: 1.5em;
+      font-size: 1.5vw;
       background-color: #FF905B;
       color: white;
       padding: 5%;
@@ -13,6 +13,14 @@
       border: 1px solid transparent;
       border-radius: 5% 15%;
       height: 35vw;
+      margin-bottom: 5%;
+      margin-left: 2%;
+      margin-right: 2%;
+      transition-duration: 0.5s;
+    }
+    .main-idea:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+      transition-duration: 0.5s;
     }
     .main-idea .text {
       text-align: center;
