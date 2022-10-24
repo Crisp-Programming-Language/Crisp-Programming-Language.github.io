@@ -1,3 +1,5 @@
+   
+    //Main Idea Image Fade
     var image = 1;
     const src = ["https://raw.githubusercontent.com/Crisp-Programming-Language/Crisp-Programming-Language.github.io/main/assets/images/light-mode.png", "https://raw.githubusercontent.com/Crisp-Programming-Language/Crisp-Programming-Language.github.io/main/assets/images/dark-mode.png"];
     const changeImg = function () {
