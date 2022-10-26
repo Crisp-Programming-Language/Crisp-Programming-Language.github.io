@@ -1,11 +1,13 @@
  #navbar {
-      margin: -10px;
+      top: 0;
       background-image: linear-gradient(#fa893c, #f3696e);
       height: 100px;
       border: 1px solid transparent;
       border-radius: 10px;
       position: fixed;
       z-index: 10;
+      width: 100%;
+      
     }
     #navbar img {
       border: 1px solid transparent;
