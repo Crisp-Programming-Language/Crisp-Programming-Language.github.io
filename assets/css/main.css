@@ -1,14 +1,13 @@
 /*https://paletton.com/#uid=10i0u0kkAL39QWmfNQYoUEuumyv */
 
-    body {
+    `body {
       font-family: sans-serif;
-      font-size: 1.5vw;
+      color: white;
+      font-size: 2vw;
     }
     .main-idea {
       margin-top: 5%;
-      font-size: 1.5vw;
       background-color: #FF905B;
-      color: white;
       padding: 5%;
       padding-top: 3%;
       border: 1px solid transparent;
@@ -28,11 +27,11 @@
       float: left;
       width: 45%;
     }
-    .main-idea .text h1{
+    .main-idea .text h1, .box-link-left h2, .box-link-right h2{
       border-bottom: 5px double white;
       padding-bottom: 5px;
     }
-    .main-idea .img {
+.main-idea .img {
        position: relative;
        text-align: center;
     }
@@ -62,9 +61,49 @@
       right: 10vw;
       cursor: pointer;
     }
-    .main-idea .img a:hover {
+.main-idea .img a:hover {
       background-color: white;
       color: black;
       border-color: #FFAA81;
       transition-duration: 0.5s;
     }
+    .box-link-left, .box-link-right {
+      background-color: #ff7939;
+      margin-bottom: 10%;
+      padding: 3%;
+      border: 1px solid transparent;
+      border-radius: 5% 10%;
+      width: 30%;
+      text-align: center;
+      transition-duration: 0.4s;
+    }
+    .box-link-left:hover, .box-link-right:hover {
+      transition-duration: 0.4s;
+       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .box-link-left {
+      float: left;
+      margin-left: 8%;
+    }
+    .box-link-right {
+      float: right;
+      margin-right: 8%;
+    }
+    .box-link-left a, .box-link-right a {
+      text-decoration: none;
+      color: white; 
+      font-weight: bold;
+      transition-duration: 0.4s;
+    }
+.box-link-left a:hover, .box-link-right a:hover {
+      color: #b8b8b8;
+      transition-duration: 0.6s;
+      text-decoration: 2px #b8b8b8 underline;
+    }
+    .bottom {
+      margin-top: 2%;
+    }
+    .full{
+      width: 80%;
+    }
+ 
