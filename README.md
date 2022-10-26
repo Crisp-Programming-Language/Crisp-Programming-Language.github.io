@@ -11,6 +11,7 @@ To Do-
 * FaQ
 * Download
 * About
+* 404
 
 Pending Reveiw-
 
